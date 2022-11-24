@@ -1,0 +1,40 @@
+@import '../../variables';
+.worksBlock{
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+.cards {
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 70px;
+  color: $gray-light;
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.title{
+  margin-top: 100px;
+}
+.worksContainer {
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    margin: 0;
+  }
+  .title{
+    margin-top: 40px;
+  }
+  .worksContainer{
+    width: 100%;
+  }
+}

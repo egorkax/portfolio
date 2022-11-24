@@ -1,0 +1,37 @@
+@import '../../variables';
+.skillsBlock {
+    min-height: 101vh;
+    color: $secondary-color;
+}
+
+.skillsContainer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.skills {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .skillsBlock {
+    }
+    .title{
+        margin-top: 40px;
+    }
+
+    .skills {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

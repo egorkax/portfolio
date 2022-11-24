@@ -1,0 +1,68 @@
+@import '../../variables';
+
+.nav {
+  display: block;
+  //padding: 20px;
+  margin-top: 25px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+}
+
+.nav ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding: 8px;
+  color: $gray-dark;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: $secondary-color;
+  display: inline-block;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.awesomeIcon {
+  color: $secondary-color;
+  font-weight: 300;
+}
+
+a:hover {
+  color: $primary-color;
+}
+
+.active {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    border: none;
+    width: 100%;
+    background-color: $background-color;
+    display: flex;
+
+  }
+
+  .nav li {
+    padding-left: 20px;
+    //padding-right: 60px;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+  }
+}
+

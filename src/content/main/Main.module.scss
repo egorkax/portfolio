@@ -1,0 +1,152 @@
+@import '../../variables';
+
+.main {
+  background-color: $background-color;
+  height: 101vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  width: 520px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.text p {
+  flex: 1 1 auto;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  color: $secondary-color;
+}
+
+.text h1 {
+  color: $gray-light;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+.text h1 span {
+
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: $secondary-color;
+  font-size: 44px;
+  font-weight: lighter;
+  line-height: 0.2;
+}
+
+.prof {
+  color: $gray-dark;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.photo {
+  width: 500px;
+  height: 700px;
+  background-color: gray;
+  border: 2px solid whitesmoke;
+  //box-shadow: 0 20px 40px -1px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  -webkit-backface-visibility: hidden;
+}
+
+.buttonsWrap {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  padding: 8px 10px;
+  border-radius: 0;
+  font-size: 16px;
+  color: $secondary-color;
+  border: none;
+}
+
+button:first-child {
+  margin-right: 20px;
+  background-color: $primary-color;
+  color: whitesmoke;
+}
+
+button:first-child:hover {
+  background-color: black;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .main {
+    position: relative;
+    margin-top: 0;
+    height: 100vh;
+  }
+  .text {
+    position: absolute;
+    width: 100%;
+    bottom: 47px;
+    left: 0;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    z-index: 1;
+  }
+  .text p {
+    color: whitesmoke;
+    line-height: 14px;
+    font-size: 14px;
+  }
+  .text h1 {
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 0;
+  }
+  .text h1 span {
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 0.2;
+  }
+  .prof {
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: lighter;
+  }
+  .photo {
+    z-index: 0;
+    border: none;
+    object-fit: cover;
+  }
+  .buttonsWrap {
+    justify-content: center;
+  }
+}
