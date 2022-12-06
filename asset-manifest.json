@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.84581c12.css",
-    "main.js": "/portfolio/static/js/main.8ea8cebf.js",
+    "main.css": "/portfolio/static/css/main.c37559cd.css",
+    "main.js": "/portfolio/static/js/main.9e586412.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/photoNav.jpg": "/portfolio/static/media/photoNav.b898246aa11adf85df1c.jpg",
+    "static/media/EGOR-KAKHNENKA_CV.pdf": "/portfolio/static/media/EGOR-KAKHNENKA_CV.cb92f58ae465fefc7850.pdf",
     "static/media/photoPrev.jpg": "/portfolio/static/media/photoPrev.de50a3b49984464d6480.jpg",
     "static/media/todo.jpg": "/portfolio/static/media/todo.aa0c68322aa76773cc43.jpg",
     "static/media/social-nW.jpg": "/portfolio/static/media/social-nW.9d049a772ad3517dbde0.jpg",
@@ -11,12 +12,12 @@
     "static/media/react2.png": "/portfolio/static/media/react2.f15687c3d98895d1144f.png",
     "static/media/js2.png": "/portfolio/static/media/js2.60dbbe1569571db1eda7.png",
     "index.html": "/portfolio/index.html",
-    "main.84581c12.css.map": "/portfolio/static/css/main.84581c12.css.map",
-    "main.8ea8cebf.js.map": "/portfolio/static/js/main.8ea8cebf.js.map",
+    "main.c37559cd.css.map": "/portfolio/static/css/main.c37559cd.css.map",
+    "main.9e586412.js.map": "/portfolio/static/js/main.9e586412.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84581c12.css",
-    "static/js/main.8ea8cebf.js"
+    "static/css/main.c37559cd.css",
+    "static/js/main.9e586412.js"
   ]
 }
