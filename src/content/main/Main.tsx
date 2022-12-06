@@ -4,6 +4,9 @@ import styleContainer from '../../common/styles/Container.module.css'
 import ReactTypingEffect from "react-typing-effect";
 import photoPrev from '../../assets/image/photoPrev.jpg'
 
+// @ts-ignore
+import cv from './../../assets/files/EGOR-KAKHNENKA_CV.pdf'
+
 export const Main = () => {
     return (
         <div id='main'>
@@ -40,13 +43,20 @@ export const Main = () => {
                                 framework. Also have
                                 experience in staff
                                 management, quality
-                                control, technical support,
-                                implementation of
+                                control,    implementation of
                                 experiential hardware and
                                 software. I have a research
-                                interest in Angular and Vue
+                                interest in Express and React Native
                                 frameworks.
                             </p>
+                            <div className={s.buttonsWrap}>
+                                <a href={cv} download={'EGOR-KAKHNENKA_CV.pdf'}>
+                                    <button>Download CV</button>
+                                </a>
+                                <a href={'#contacts'}>
+                                    <button>Contact</button>
+                                </a>
+                            </div>
                         </div>
                         <div>
                             <img src={photoPrev}

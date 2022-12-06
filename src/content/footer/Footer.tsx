@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className={s.footer}>
       <a href="https://github.com/egorkax"><FontAwesomeIcon className={s.icons} icon={faGithub}/> Git</a>
-      <a href="src/content/footer/Footer">
+      <a href="https://linkedin.com/in/egor-kakhnenka-a9a659259">
         <FontAwesomeIcon className={s.icons} icon={faLinkedin}/>
         Linkedin
       </a>

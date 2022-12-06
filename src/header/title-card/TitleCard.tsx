@@ -20,7 +20,7 @@ export const TitleCard = () => {
       <span className={s.prof}>Front-end developer</span>
       <div className={s.iconsBlock}>
         <a href="https://github.com/egorkax"><FontAwesomeIcon className={s.icons} icon={faGithub}/></a>
-        <a href="src/header/title-card/TitleCard"><FontAwesomeIcon className={s.icons}
+        <a href="https://linkedin.com/in/egor-kakhnenka-a9a659259"><FontAwesomeIcon className={s.icons}
                                                                    icon={faLinkedin}/></a>
         <a href="https://t.me/kahegor"><FontAwesomeIcon className={s.icons} icon={faTelegram}/></a>
       </div>
